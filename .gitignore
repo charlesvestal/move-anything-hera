@@ -1,0 +1,15 @@
+# Build outputs
+build/
+dist/
+*.tar.gz
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# IDE
+.vscode/
+.idea/
+
+# Hera clone (if present)
+hera-clone/
