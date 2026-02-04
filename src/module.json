@@ -2,7 +2,7 @@
   "id": "hera",
   "name": "Hera",
   "abbrev": "HE",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Juno-60 emulation synthesizer based on Hera by jpcima",
   "author": "jpcima (port: charlesvestal)",
   "license": "GPL-3.0",
@@ -17,6 +17,15 @@
     "aftertouch": false,
     "chainable": true,
     "component_type": "sound_generator",
+    "ui_hierarchy": {
+      "levels": {
+        "root": {
+          "name": "Hera",
+          "params": ["preset", "volume", "vcf_cutoff", "vcf_resonance", "vcf_env", "attack", "decay", "sustain", "release", "lfo_rate"],
+          "knobs": ["preset", "volume", "vcf_cutoff", "vcf_resonance", "attack", "decay", "sustain", "release"]
+        }
+      }
+    },
     "chain_params": [
       {
         "key": "preset",
