@@ -2,7 +2,7 @@
   "id": "hera",
   "name": "Hera",
   "abbrev": "HE",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Juno-60 emulation synthesizer based on Hera by jpcima",
   "author": "jpcima (port: charlesvestal)",
   "license": "GPL-3.0",
