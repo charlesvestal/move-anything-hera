@@ -795,7 +795,7 @@ static void* v2_create_instance(const char *module_dir, const char *json_default
 
     memset(inst->module_dir, 0, sizeof(inst->module_dir));
     strncpy(inst->module_dir, module_dir, sizeof(inst->module_dir) - 1);
-    inst->output_gain = 0.5f;
+    inst->output_gain = 1.0f;
     inst->volume = 0.8f;
     inst->pitchFactor = 1.0f;
     inst->vcaType = kHeraVCATypeEnvelope;
