@@ -121,100 +121,18 @@
               "unit": "%"
             }
           ],
-          "knobs": ["preset", "volume", "vcf_cutoff", "vcf_resonance", "attack", "decay", "sustain", "release"]
+          "knobs": [
+            "preset",
+            "volume",
+            "vcf_cutoff",
+            "vcf_resonance",
+            "attack",
+            "decay",
+            "sustain",
+            "release"
+          ]
         }
       }
-    },
-    "chain_params": [
-      {
-        "key": "preset",
-        "name": "Preset",
-        "type": "int",
-        "min": 0,
-        "max_param": "preset_count",
-        "default": 0
-      },
-      {
-        "key": "volume",
-        "name": "Volume",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.8,
-        "step": 0.02
-      },
-      {
-        "key": "vcf_cutoff",
-        "name": "Cutoff",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.5,
-        "step": 0.02
-      },
-      {
-        "key": "vcf_resonance",
-        "name": "Resonance",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      },
-      {
-        "key": "vcf_env",
-        "name": "VCF Env",
-        "type": "float",
-        "min": -1.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      },
-      {
-        "key": "attack",
-        "name": "Attack",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      },
-      {
-        "key": "decay",
-        "name": "Decay",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      },
-      {
-        "key": "sustain",
-        "name": "Sustain",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      },
-      {
-        "key": "release",
-        "name": "Release",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      },
-      {
-        "key": "lfo_rate",
-        "name": "LFO Rate",
-        "type": "float",
-        "min": 0.0,
-        "max": 1.0,
-        "default": 0.0,
-        "step": 0.02
-      }
-    ]
+    }
   }
 }
