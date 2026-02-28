@@ -65,6 +65,7 @@ ${CROSS_PREFIX}g++ -g -O3 -shared -fPIC -std=c++14 \
 # Copy files to dist (use cat to avoid ExtFS deallocation issues with Docker)
 echo "Packaging..."
 cat src/module.json > dist/hera/module.json
+[ -f src/help.json ] && cat src/help.json > dist/hera/help.json
 cat src/ui.js > dist/hera/ui.js
 cat build/dsp.so > dist/hera/dsp.so
 chmod +x dist/hera/dsp.so
