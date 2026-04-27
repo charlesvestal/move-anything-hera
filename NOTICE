@@ -1,0 +1,19 @@
+schwung-hera
+============
+
+This module includes **Hera** (Juno-60 emulation synthesizer) by Jean
+Pierre Cimalando — https://github.com/jpcima/Hera — and is distributed
+under the terms of the GNU General Public License, version 3 or later
+(GPL-3.0-or-later). The full text of the GPL-3 is in the LICENSE file.
+
+Schwung integration by Charles Vestal.
+
+See upstream project for original copyright, authorship, and DSP
+attribution. The Faust-generated DSP, presets, and chorus model are all
+derived from upstream Hera.
+
+Trademarks
+----------
+Roland and Juno-60 are trademarks of Roland Corporation. This module is
+an unofficial software emulation; it is not affiliated with, endorsed
+by, or sponsored by Roland.

@@ -66,6 +66,8 @@ ${CROSS_PREFIX}g++ -g -O3 -shared -fPIC -std=c++14 \
 echo "Packaging..."
 cat src/module.json > dist/hera/module.json
 [ -f src/help.json ] && cat src/help.json > dist/hera/help.json
+[ -f LICENSE ] && cat LICENSE > dist/hera/LICENSE
+[ -f NOTICE ]  && cat NOTICE  > dist/hera/NOTICE
 cat src/ui.js > dist/hera/ui.js
 cat build/dsp.so > dist/hera/dsp.so
 chmod +x dist/hera/dsp.so
