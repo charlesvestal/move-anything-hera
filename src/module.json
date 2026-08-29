@@ -42,6 +42,7 @@
             },
             {
               "key": "vcf_cutoff",
+              "short_name": "Cutoff",
               "label": "Cutoff",
               "type": "float",
               "min": 0.0,
@@ -52,6 +53,7 @@
             },
             {
               "key": "vcf_resonance",
+              "short_name": "Reso",
               "label": "Resonance",
               "type": "float",
               "min": 0.0,
@@ -62,6 +64,7 @@
             },
             {
               "key": "vcf_env",
+              "short_name": "Env",
               "label": "VCF Env",
               "type": "float",
               "min": -1.0,
@@ -112,6 +115,7 @@
             },
             {
               "key": "lfo_rate",
+              "short_name": "Rate",
               "label": "LFO Rate",
               "type": "float",
               "min": 0.0,
