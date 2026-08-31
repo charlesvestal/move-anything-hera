@@ -23,14 +23,21 @@
         {
           "title": "Knob Mapping",
           "lines": [
-            "Knob 1: Preset",
-            "Knob 2: Volume",
-            "Knob 3: VCF Cutoff",
-            "Knob 4: VCF Resonance",
+            "Knob 1: Volume",
+            "Knob 2: VCF Cutoff",
+            "Knob 3: VCF Resonance",
+            "Knob 4: VCF Env",
             "Knob 5: Attack",
             "Knob 6: Decay",
             "Knob 7: Sustain",
-            "Knob 8: Release"
+            "Knob 8: Octave",
+            "",
+            "Presets are browsed",
+            "from the list on the",
+            "same page, not from",
+            "a knob. Release is",
+            "on the Envelope",
+            "page."
           ]
         },
         {
@@ -49,7 +56,7 @@
             " 2=Envelope",
             "",
             "Pitch Range:",
-            " 0=4', 1=8', 2=16'",
+            " 0=16', 1=8', 2=4'",
             "Pitch Mod: LFO to",
             " pitch amount"
           ]
@@ -106,9 +113,9 @@
             " delay after note",
             "",
             "LFO Trigger:",
-            " 0=Retrigger per",
+            " 0=Free-running",
+            " 1=Retrigger per",
             "   note",
-            " 1=Free-running",
             "",
             "HPF: high-pass",
             " filter cutoff",
